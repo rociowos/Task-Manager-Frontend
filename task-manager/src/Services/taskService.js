@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://task-manager-backend-0efm.onrender.com";
+const API_URL = "https://task-manager-backend-0efm.onrender.com/api/tasks";
 
 export const getTasks = async () => {
   const response = await axios.get(API_URL);
